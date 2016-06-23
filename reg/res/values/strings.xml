@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">reg</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="register_successful">恭喜您注册成功！</string>
+    <string name="profile">个人资料</string>
+    <string name="user_name">用户名：</string>
+    <string name="password">密码：</string>
+    <string name="warn">打死都不要告诉别人哦！</string>
+    <string name="sex">性别：</string>
+    <string name="bio">个性签名：</string>
+
+</resources>

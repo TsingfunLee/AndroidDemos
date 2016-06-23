@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?><RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5FFFB" >
+
+    <TextView
+        android:id="@+id/textViewUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text=""
+        android:textSize="26sp"
+        android:textColor="#8DB6CD" />
+
+    <TextView
+        android:id="@+id/textViewSuccess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewUser"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/register_successful"
+        android:textSize="22sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/register_success_style" />
+
+    <TextView
+        android:id="@+id/textViewProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewSuccess"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="@string/profile"
+        android:textColor="#a3a3a3" />
+
+    <TextView
+        android:id="@+id/textViewUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewProfile"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="22dp"
+        android:layout_toLeftOf="@+id/textViewProfile"
+        android:text="@string/user_name"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textViewPassWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewUserName"
+        android:layout_below="@+id/textViewUserName"
+        android:layout_marginTop="22dp"
+        android:text="@string/password"
+        android:textSize="14sp" />
+    
+    <TextView
+        android:id="@+id/textViewWarn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewPassWord"
+        android:layout_below="@+id/textViewPassWord"
+        android:layout_marginTop="22dp"
+        android:text="@string/warn"
+        android:textColor="#a3a3a3"
+        android:textSize="14sp" />
+    
+     <TextView
+        android:id="@+id/textViewSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewUserName"
+        android:layout_below="@+id/textViewWarn"
+        android:layout_marginTop="22dp"
+        android:text="@string/sex"
+        android:textSize="14sp" />
+     
+     <TextView
+        android:id="@+id/textViewBio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewUserName"
+        android:layout_below="@+id/textViewSex"
+        android:layout_marginTop="22dp"
+        android:text="@string/bio"
+        android:textSize="14sp" />
+
+     <EditText
+         android:id="@+id/editTextUser"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignTop="@+id/textViewUserName"
+         android:layout_toRightOf="@id/textViewUserName"
+         android:layout_centerVertical="true"
+         android:ems="8"
+         android:background="#F5FFFB"
+         android:textSize="14sp" />
+         
+        <EditText
+         android:id="@+id/editTextPassWord"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/editTextUser"
+         android:layout_alignLeft="@+id/editTextUser"
+         android:layout_alignTop="@id/textViewPassWord"
+         android:ems="8"
+         android:background="#F5FFFB"
+         android:textSize="14sp" />
+        
+        <EditText
+         android:id="@+id/editTextSex"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/editTextPassWord"
+         android:layout_alignLeft="@+id/editTextUser"
+         android:layout_alignTop="@id/textViewSex"
+         android:ems="8"
+         android:background="#F5FFFB"
+         android:textSize="14sp" />
+        
+        <EditText
+         android:id="@+id/editTextBio"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/editTextSex"
+         android:layout_alignLeft="@+id/editTextUser"
+         android:layout_alignTop="@id/textViewBio"
+         android:ems="8"
+         android:lines="3"
+         android:gravity="left"
+         android:background="#F5FFFB"
+         android:textSize="14sp" />
+
+</RelativeLayout>

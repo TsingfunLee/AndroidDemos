@@ -15,3 +15,7 @@ Its drawing process is simple.Calculate several semi-circle and circle's centers
 <br>
 Second shape is like Chinese knot.Its calculation is more complex.Acctually,calculation is not very difficult,but verbose.
 ![img](http://o7j37jjnh.bkt.clouddn.com/androidDrawing.JPG)
+
+## Fangkuai
+A boring block game.
+![img](http://s369.photo.store.qq.com/psb?/V13kkIc306HuPq/YibKUWAVQ3Lsgy5m4FbBgGack2koHhsJ7CKPyCbt1Lo!/b/dHEBAAAAAAAA)
